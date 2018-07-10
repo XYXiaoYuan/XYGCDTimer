@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYGCDTimer_Example' do
+  pod 'XYGCDTimer', :path => '../'
+
+  target 'XYGCDTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
