@@ -13,6 +13,8 @@
 @end
 
 @implementation XYViewController
+- (IBAction)toXYGCDTimerVC {
+}
 
 - (void)viewDidLoad
 {

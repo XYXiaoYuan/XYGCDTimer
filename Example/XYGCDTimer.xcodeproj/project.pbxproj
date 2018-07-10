@@ -24,6 +24,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9EFE786B8DF2CD5D9CFA75DB /* Pods_XYGCDTimer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013589896EF1BEC498648C51 /* Pods_XYGCDTimer_Example.framework */; };
+		EA1DCECE20F476AD00829EB3 /* XYGCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DCECD20F476AD00829EB3 /* XYGCDTimerViewController.m */; };
+		EA1DCEE020F4785A00829EB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA1DCEDD20F4785A00829EB3 /* README.md */; };
+		EA1DCEE120F4785A00829EB3 /* XYGCDTimer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA1DCEDE20F4785A00829EB3 /* XYGCDTimer.podspec */; };
+		EA1DCEE220F4785A00829EB3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA1DCEDF20F4785A00829EB3 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		013589896EF1BEC498648C51 /* Pods_XYGCDTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGCDTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A6780A8741F10BC395D031E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1E84C03D10F8491D6E4D4052 /* Pods-XYGCDTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGCDTimer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYGCDTimer_Example/Pods-XYGCDTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1FD0522FA9873990F1290F85 /* Pods_XYGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGCDTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BA51B2739594856EA246A3 /* Pods-XYGCDTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGCDTimer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYGCDTimer_Tests/Pods-XYGCDTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,10 +65,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76BDAA2BF070A3008B306FA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		995380BA86162913424D1B8A /* Pods-XYGCDTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGCDTimer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYGCDTimer_Example/Pods-XYGCDTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC90E618DA3E48E04D1C3EFF /* XYGCDTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYGCDTimer.podspec; path = ../XYGCDTimer.podspec; sourceTree = "<group>"; };
+		EA1DCECC20F476AD00829EB3 /* XYGCDTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYGCDTimerViewController.h; sourceTree = "<group>"; };
+		EA1DCECD20F476AD00829EB3 /* XYGCDTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYGCDTimerViewController.m; sourceTree = "<group>"; };
+		EA1DCEDD20F4785A00829EB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA1DCEDE20F4785A00829EB3 /* XYGCDTimer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XYGCDTimer.podspec; path = ../XYGCDTimer.podspec; sourceTree = "<group>"; };
+		EA1DCEDF20F4785A00829EB3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF6169F17395BB5515871B10 /* Pods-XYGCDTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGCDTimer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYGCDTimer_Tests/Pods-XYGCDTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XYViewController.h */,
 				6003F5A6195388D20070C39A /* XYViewController.m */,
+				EA1DCECC20F476AD00829EB3 /* XYGCDTimerViewController.h */,
+				EA1DCECD20F476AD00829EB3 /* XYGCDTimerViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,9 +186,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				BC90E618DA3E48E04D1C3EFF /* XYGCDTimer.podspec */,
-				0A6780A8741F10BC395D031E /* README.md */,
-				76BDAA2BF070A3008B306FA1 /* LICENSE */,
+				EA1DCEDE20F4785A00829EB3 /* XYGCDTimer.podspec */,
+				EA1DCEDD20F4785A00829EB3 /* README.md */,
+				EA1DCEDF20F4785A00829EB3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -279,7 +287,10 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				EA1DCEE220F4785A00829EB3 /* LICENSE in Resources */,
+				EA1DCEE120F4785A00829EB3 /* XYGCDTimer.podspec in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				EA1DCEE020F4785A00829EB3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1DCECE20F476AD00829EB3 /* XYGCDTimerViewController.m in Sources */,
 				6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

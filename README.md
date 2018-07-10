@@ -22,7 +22,7 @@ pod 'XYGCDTimer'
 
 ## Author
 
-664995775@qq.com, 664995775@qq.com
+Bruceyuan, 664995775@qq.com
 
 ## License
 

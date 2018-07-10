@@ -1,0 +1,16 @@
+PODS:
+  - XYGCDTimer (0.1.0)
+
+DEPENDENCIES:
+  - XYGCDTimer (from `../`)
+
+EXTERNAL SOURCES:
+  XYGCDTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYGCDTimer: 6d040fd6bfa77ab530ad3640832ce3d8a95cc942
+
+PODFILE CHECKSUM: 44d2782c01698c157abed9b54657fcc3cb344b3a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="7.070706">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.032131">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.104622">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="8.454931">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.062955">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: remove_tag" time="9.019691">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.058573">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="9.735599">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: pod_push" time="1.320135">
+        
+          <failure message="/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:236:in `block in execute_action'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:231:in `chdir'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:231:in `execute_action'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:57:in `block in parsing_binding'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/lane_manager.rb:59:in `cruise_lane'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/commands_generator.rb:107:in `block (2 levels) in run'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/yuanxiaorong/.rvm/rubies/ruby-2.3.0/lib/ruby/gems/2.3.0/gems/fastlane-2.95.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:75:in `run!'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/commands_generator.rb:332:in `run'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/fastlane/lib/fastlane/cli_tools_distributor.rb:108:in `take_off'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0@global/gems/fastlane-2.95.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0/bin/fastlane:22:in `load'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0/bin/fastlane:22:in `&lt;main&gt;'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/yuanxiaorong/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push master 'GCDTimer.podspec' --sources='https://github.com/CocoaPods/Specs' --allow-warnings' was 1 instead of 0.&#10;[!] To push to the CocoaPods master repo use the `pod trunk push` command.&#10;&#10;If you are using a fork of the master repo for private purposes we recommend to migrate to a clean private repo. To disable this check remove the remote pointing to the CocoaPods master repo.&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

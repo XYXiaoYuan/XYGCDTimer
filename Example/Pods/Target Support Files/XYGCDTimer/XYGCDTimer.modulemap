@@ -1,0 +1,6 @@
+framework module XYGCDTimer {
+  umbrella header "XYGCDTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
