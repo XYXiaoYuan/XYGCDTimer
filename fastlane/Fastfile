@@ -51,10 +51,5 @@ tag: tagName
 #    git push --tags
 push_git_tags
 
-# 4. pod spec lint
-# pod_lib_lint(allow_warnings: true)
-#    pod repo push XXXX xxx.podspec
-pod_push(path: "#{targetName}.podspec", repo: "master", sources: ["https://github.com/CocoaPods/Specs"], allow_warnings: true)
-
 
 end

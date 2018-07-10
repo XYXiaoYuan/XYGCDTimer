@@ -10,7 +10,6 @@
 
 @interface XYGCDTimer : NSObject
 
-
 /**
  创建一个定时器,每隔interval秒调用的方法写在task这个block中
 
