@@ -7,6 +7,7 @@
 //
 
 #import "XYViewController.h"
+#import "XYGCDTimerViewController.h"
 
 @interface XYViewController ()
 
@@ -14,12 +15,16 @@
 
 @implementation XYViewController
 - (IBAction)toXYGCDTimerVC {
+    XYGCDTimerViewController *vc = [[XYGCDTimerViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.navigationItem.title = @"首页";
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning

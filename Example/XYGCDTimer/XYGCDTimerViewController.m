@@ -7,7 +7,7 @@
 //
 
 #import "XYGCDTimerViewController.h"
-#import <XYGCDTimer/XYGCDTimer.h>
+#import "XYGCDTimer.h"
 
 @interface XYGCDTimerViewController ()
 @property (strong, nonatomic) dispatch_source_t timer;
