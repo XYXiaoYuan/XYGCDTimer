@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XYGCDTimer.h"
 
 FOUNDATION_EXPORT double XYGCDTimerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XYGCDTimerVersionString[];

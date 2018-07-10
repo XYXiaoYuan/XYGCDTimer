@@ -1,5 +1,5 @@
 PODS:
-  - XYGCDTimer (0.1.0)
+  - XYGCDTimer (1.0.0)
 
 DEPENDENCIES:
   - XYGCDTimer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYGCDTimer: 6d040fd6bfa77ab530ad3640832ce3d8a95cc942
+  XYGCDTimer: 6c287894afac9471177c6576abada6ae1639b771
 
 PODFILE CHECKSUM: 44d2782c01698c157abed9b54657fcc3cb344b3a
 

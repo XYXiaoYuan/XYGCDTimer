@@ -7,12 +7,11 @@
 //
 
 #import "XYGCDTimerViewController.h"
-#import <XYGCDTimer/XYGCDTimer.h>
+
 
 @interface XYGCDTimerViewController ()
 @property (strong, nonatomic) dispatch_source_t timer;
 @property (copy, nonatomic) NSString *task;
-
 @end
 
 @implementation XYGCDTimerViewController
@@ -29,7 +28,7 @@
     self.navigationItem.title = @"GCD定时器";
 
     // 接口设计
-    self.task = [GCDTimer execTask:self
+    self.task = [XYGCDTimer execTask:self
                          selector:@selector(doTask)
                             start:2.0
                          interval:1.0
@@ -44,7 +43,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [GCDTimer cancelTask:self.task];
+    [XYGCDTimer cancelTask:self.task];
     NSLog(@"停止定时器");
 }
 

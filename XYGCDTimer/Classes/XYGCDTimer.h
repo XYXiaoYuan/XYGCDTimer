@@ -22,10 +22,10 @@
  @return 返回一个定时器任务名
  */
 + (NSString *)execTask:(void(^)(void))task
-           start:(NSTimeInterval)start
-        interval:(NSTimeInterval)interval
-         repeats:(BOOL)repeats
-           async:(BOOL)async;
+                 start:(NSTimeInterval)start
+              interval:(NSTimeInterval)interval
+               repeats:(BOOL)repeats
+                 async:(BOOL)async;
 
 
 /**

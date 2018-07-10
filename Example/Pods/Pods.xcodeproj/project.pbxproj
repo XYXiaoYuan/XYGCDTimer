@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		129F4C2FBF7DBFBECF12F73AC5A1BDF2 /* XYGCDTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C2005DC6ACBFC0759E0AB071F6F304 /* XYGCDTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A2B9BEA95BBF61E554E9C9FE6CA0392 /* XYGCDTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD28E684E428F4F9505B161A9BD76543 /* XYGCDTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44DB91694ECC267C81BA00A43A4A0D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4DCEB42311095EF6FFC4447806B51186 /* XYGCDTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BECD0E0B22DCFE76A8B5984B9B6E9C6 /* XYGCDTimer-dummy.m */; };
 		5C35B577C5332FD351EC02BE235C7D4D /* Pods-XYGCDTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105BFDDEF9DCF608CC5A1CF6666B3B7 /* Pods-XYGCDTimer_Tests-dummy.m */; };
 		67C0D95DDA6742CE84A38702161B5121 /* Pods-XYGCDTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CEC3030B2277412FC741A48CC7C61 /* Pods-XYGCDTimer_Example-dummy.m */; };
+		85B4456672A89AB09812E1FC4494B02A /* XYGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 118014DE9AF2049B2D4EFFF09ACA93EE /* XYGCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB06C2B4870F7C047CC6314FBBCD2B69 /* XYGCDTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9347E8AF88D5BFAA60F034A798FC2A0 /* XYGCDTimer-dummy.m */; };
+		AE9EEDFEB79AF75DCED5B6BEB8933C8D /* XYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE31EF19CA9CCBE062404010D9163B3F /* XYGCDTimer.m */; };
 		BB2F07A7F1AE626C7B9514AA05B9A4CE /* Pods-XYGCDTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E50860F5C97DE02629B08593760134 /* Pods-XYGCDTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA7DAC14C9175119571028C6A3BA270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C88E4561F92AC1EA3594849CA2A200DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EA1DCEDB20F4778700829EB3 /* XYGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1DCED920F4778700829EB3 /* XYGCDTimer.h */; };
-		EA1DCEDC20F4778700829EB3 /* XYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DCEDA20F4778700829EB3 /* XYGCDTimer.m */; };
 		F1E8056F4DE0636E89F071517ECE7D69 /* Pods-XYGCDTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B090F307D668268AB204760B2D9607BF /* Pods-XYGCDTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,37 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118014DE9AF2049B2D4EFFF09ACA93EE /* XYGCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYGCDTimer.h; path = XYGCDTimer/Classes/XYGCDTimer.h; sourceTree = "<group>"; };
 		16711E27B44FD27EE63D224049D3F9C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C4CEC3030B2277412FC741A48CC7C61 /* Pods-XYGCDTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYGCDTimer_Example-dummy.m"; sourceTree = "<group>"; };
 		47DE7EE7693C70B05DB4731B6F407135 /* Pods-XYGCDTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYGCDTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		47E254CDAC197443C308E2D075CA770F /* XYGCDTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYGCDTimer.xcconfig; sourceTree = "<group>"; };
+		50BA819336C686EDD1CB3692B4F1B7E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5A2D71A512317FB8DE21B96072C49443 /* Pods-XYGCDTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYGCDTimer_Example.modulemap"; sourceTree = "<group>"; };
-		5C91E30FF8AB4DE62FDEFA3072A829B9 /* Pods_XYGCDTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGCDTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C91E30FF8AB4DE62FDEFA3072A829B9 /* Pods_XYGCDTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYGCDTimer_Example.framework; path = "Pods-XYGCDTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97F6DFA2BBB1817EA83AEB22EA195B /* Pods-XYGCDTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYGCDTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		60E34C7238DCBE6A7555D751D1CE6A3D /* Pods-XYGCDTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYGCDTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		64D3A13C2897FA11C800D6BDFE0D23B1 /* XYGCDTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYGCDTimer-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6BECD0E0B22DCFE76A8B5984B9B6E9C6 /* XYGCDTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYGCDTimer-dummy.m"; sourceTree = "<group>"; };
+		68EF32B0322FD57F4155FA55DA3EA945 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FF3300E4B477AD5D7F53F05B2A405F /* XYGCDTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYGCDTimer-prefix.pch"; sourceTree = "<group>"; };
 		73220F4563AB9E7846E86B4336C0D006 /* Pods-XYGCDTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYGCDTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		76E50860F5C97DE02629B08593760134 /* Pods-XYGCDTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYGCDTimer_Example-umbrella.h"; sourceTree = "<group>"; };
 		83BE21806E5B8F31F8F80CD2D51AA4B0 /* Pods-XYGCDTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYGCDTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		87147AD25BCAC5547D2A15677FF210CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A36573F415CCE975ABF4C6971A780D /* XYGCDTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XYGCDTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9105BFDDEF9DCF608CC5A1CF6666B3B7 /* Pods-XYGCDTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYGCDTimer_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988A22DE100CAA5DAF371DB2516C9989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9347E8AF88D5BFAA60F034A798FC2A0 /* XYGCDTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYGCDTimer-dummy.m"; sourceTree = "<group>"; };
+		B036558C4B73497B2AC208F94D017EF3 /* XYGCDTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYGCDTimer.xcconfig; sourceTree = "<group>"; };
 		B090F307D668268AB204760B2D9607BF /* Pods-XYGCDTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYGCDTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC522934C3B177026231736912E6BEA9 /* Pods-XYGCDTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYGCDTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0C2005DC6ACBFC0759E0AB071F6F304 /* XYGCDTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYGCDTimer-umbrella.h"; sourceTree = "<group>"; };
 		C486964002061D14407184419E3D1BA7 /* Pods-XYGCDTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYGCDTimer_Tests.modulemap"; sourceTree = "<group>"; };
 		C86EBEE5D408BF1474DD763ECD949408 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8791DC32848CE5A8B47B153417CC59F /* Pods-XYGCDTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYGCDTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB58AAF4A97994412D48DA66307A96D6 /* Pods-XYGCDTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYGCDTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D8A0AD637A258CD333A336FD901D855B /* XYGCDTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYGCDTimer.modulemap; sourceTree = "<group>"; };
-		DD75E07DFF5A3335CF5E88C3C1A682C6 /* Pods_XYGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGCDTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1DCED920F4778700829EB3 /* XYGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYGCDTimer.h; path = XYGCDTimer/Classes/XYGCDTimer.h; sourceTree = "<group>"; };
-		EA1DCEDA20F4778700829EB3 /* XYGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYGCDTimer.m; path = XYGCDTimer/Classes/XYGCDTimer.m; sourceTree = "<group>"; };
-		EA9C132D9C8C13D3D502847234B19701 /* XYGCDTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYGCDTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75E07DFF5A3335CF5E88C3C1A682C6 /* Pods_XYGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYGCDTimer_Tests.framework; path = "Pods-XYGCDTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE31EF19CA9CCBE062404010D9163B3F /* XYGCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XYGCDTimer.m; path = XYGCDTimer/Classes/XYGCDTimer.m; sourceTree = "<group>"; };
+		E8181F1DCA5DC9101E79B30CFD260EC9 /* XYGCDTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYGCDTimer.modulemap; sourceTree = "<group>"; };
+		EA9C132D9C8C13D3D502847234B19701 /* XYGCDTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYGCDTimer.framework; path = XYGCDTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE20E491FE325A70017392699FCA4390 /* Pods-XYGCDTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYGCDTimer_Tests-resources.sh"; sourceTree = "<group>"; };
 		F586CA17F0E699D4B09A8DD53E656D95 /* Pods-XYGCDTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYGCDTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD28E684E428F4F9505B161A9BD76543 /* XYGCDTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYGCDTimer-umbrella.h"; sourceTree = "<group>"; };
 		FEFF0C2A94959A3FB6B3E40BF4B44ABA /* Pods-XYGCDTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYGCDTimer_Example-resources.sh"; sourceTree = "<group>"; };
 		FFB9E55A485B277FE46F51DE24747A92 /* Pods-XYGCDTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYGCDTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,10 +104,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39A46F749AFF96FD3EF70635719E2AAB /* Development Pods */ = {
+		007D24BB27C1751038A0280D71ABDE24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8E360DC8AEA3CFB6190359CE531E91F /* XYGCDTimer */,
+				AE75200878A412BEFE8EFFB8E9C78AEB /* XYGCDTimer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -159,25 +162,23 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				39A46F749AFF96FD3EF70635719E2AAB /* Development Pods */,
+				007D24BB27C1751038A0280D71ABDE24 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				772F7CB4974981B6724411BA46955D1A /* Products */,
 				E07C5564FC7A324FAA934F3262B27BAB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B320CD3DB6DD7470F8BF3171025C2D09 /* Support Files */ = {
+		AE75200878A412BEFE8EFFB8E9C78AEB /* XYGCDTimer */ = {
 			isa = PBXGroup;
 			children = (
-				87147AD25BCAC5547D2A15677FF210CD /* Info.plist */,
-				D8A0AD637A258CD333A336FD901D855B /* XYGCDTimer.modulemap */,
-				47E254CDAC197443C308E2D075CA770F /* XYGCDTimer.xcconfig */,
-				6BECD0E0B22DCFE76A8B5984B9B6E9C6 /* XYGCDTimer-dummy.m */,
-				64D3A13C2897FA11C800D6BDFE0D23B1 /* XYGCDTimer-prefix.pch */,
-				C0C2005DC6ACBFC0759E0AB071F6F304 /* XYGCDTimer-umbrella.h */,
+				118014DE9AF2049B2D4EFFF09ACA93EE /* XYGCDTimer.h */,
+				DE31EF19CA9CCBE062404010D9163B3F /* XYGCDTimer.m */,
+				C647C8D3D723A0EC243EF938C5BA6A7C /* Pod */,
+				CE36808E8D1CEC1CE28F2969BBA9E7FE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XYGCDTimer";
+			name = XYGCDTimer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -186,6 +187,30 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C647C8D3D723A0EC243EF938C5BA6A7C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				988A22DE100CAA5DAF371DB2516C9989 /* LICENSE */,
+				50BA819336C686EDD1CB3692B4F1B7E6 /* README.md */,
+				84A36573F415CCE975ABF4C6971A780D /* XYGCDTimer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE36808E8D1CEC1CE28F2969BBA9E7FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68EF32B0322FD57F4155FA55DA3EA945 /* Info.plist */,
+				E8181F1DCA5DC9101E79B30CFD260EC9 /* XYGCDTimer.modulemap */,
+				B036558C4B73497B2AC208F94D017EF3 /* XYGCDTimer.xcconfig */,
+				A9347E8AF88D5BFAA60F034A798FC2A0 /* XYGCDTimer-dummy.m */,
+				70FF3300E4B477AD5D7F53F05B2A405F /* XYGCDTimer-prefix.pch */,
+				FD28E684E428F4F9505B161A9BD76543 /* XYGCDTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XYGCDTimer";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -205,20 +230,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E8E360DC8AEA3CFB6190359CE531E91F /* XYGCDTimer */ = {
-			isa = PBXGroup;
-			children = (
-				EA1DCED920F4778700829EB3 /* XYGCDTimer.h */,
-				EA1DCEDA20F4778700829EB3 /* XYGCDTimer.m */,
-				B320CD3DB6DD7470F8BF3171025C2D09 /* Support Files */,
-			);
-			name = XYGCDTimer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		283317D12F9C4385E8B6641B6C738BB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2B9BEA95BBF61E554E9C9FE6CA0392 /* XYGCDTimer-umbrella.h in Headers */,
+				85B4456672A89AB09812E1FC4494B02A /* XYGCDTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73F552F5BFC8960D2A987EBB7A6298F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,15 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2F07A7F1AE626C7B9514AA05B9A4CE /* Pods-XYGCDTimer_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9C3AD8182ECACA9B63568C95CFC67B2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA1DCEDB20F4778700829EB3 /* XYGCDTimer.h in Headers */,
-				129F4C2FBF7DBFBECF12F73AC5A1BDF2 /* XYGCDTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +283,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BDC9CCF3EB7C6A6C079FE694FFACB15 /* Build configuration list for PBXNativeTarget "XYGCDTimer" */;
 			buildPhases = (
-				07CBE20D5A86B630C6C477CE53844F1D /* Sources */,
+				5D0C6A17E13F104D726C570288F23E32 /* Sources */,
 				8F2757564F18A1186CCCDED79A11A1DE /* Frameworks */,
-				E9C3AD8182ECACA9B63568C95CFC67B2 /* Headers */,
+				283317D12F9C4385E8B6641B6C738BB3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,12 +343,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07CBE20D5A86B630C6C477CE53844F1D /* Sources */ = {
+		5D0C6A17E13F104D726C570288F23E32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1DCEDC20F4778700829EB3 /* XYGCDTimer.m in Sources */,
-				4DCEB42311095EF6FFC4447806B51186 /* XYGCDTimer-dummy.m in Sources */,
+				AB06C2B4870F7C047CC6314FBBCD2B69 /* XYGCDTimer-dummy.m in Sources */,
+				AE9EEDFEB79AF75DCED5B6BEB8933C8D /* XYGCDTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +388,7 @@
 /* Begin XCBuildConfiguration section */
 		22766AD169C1CE9C23666EA631904A5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47E254CDAC197443C308E2D075CA770F /* XYGCDTimer.xcconfig */;
+			baseConfigurationReference = B036558C4B73497B2AC208F94D017EF3 /* XYGCDTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -404,7 +418,7 @@
 		};
 		239DBD1F39A69EA6C489F77AA38CCBBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47E254CDAC197443C308E2D075CA770F /* XYGCDTimer.xcconfig */;
+			baseConfigurationReference = B036558C4B73497B2AC208F94D017EF3 /* XYGCDTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
