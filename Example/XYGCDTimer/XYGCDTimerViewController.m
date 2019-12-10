@@ -10,8 +10,8 @@
 #import "XYGCDTimer.h"
 
 @interface XYGCDTimerViewController ()
-@property (strong, nonatomic) dispatch_source_t timer;
 @property (copy, nonatomic) NSString *task;
+@property (nonatomic, assign) NSInteger seconds;
 @end
 
 @implementation XYGCDTimerViewController
@@ -30,7 +30,7 @@
     // 接口设计
     self.task = [XYGCDTimer execTask:self
                          selector:@selector(doTask)
-                            start:2.0
+                            start:0.0
                          interval:1.0
                           repeats:YES
                             async:NO];
@@ -38,7 +38,17 @@
 
 - (void)doTask
 {
-    NSLog(@"doTask - %@", [NSThread currentThread]);
+    if (self.seconds >= 0) {
+        NSInteger max = 5;
+        if (self.seconds >= max) {
+            [XYGCDTimer cancelTask:self.task];
+            NSLog(@"最长秒数%zd秒到了", max);
+            return;
+        } else {
+            self.seconds += 1;
+        }
+    }
+    NSLog(@"doTask - %@ 当前秒数%zd", [NSThread currentThread], self.seconds);
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
