@@ -34,6 +34,7 @@
                          interval:1.0
                           repeats:YES
                             async:NO];
+    NSLog(@"task = %@", self.task);
 }
 
 - (void)doTask

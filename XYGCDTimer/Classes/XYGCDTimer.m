@@ -21,7 +21,11 @@ dispatch_semaphore_t semaphore_;
     });
 }
 
-+ (NSString *)execTask:(void (^)(void))task start:(NSTimeInterval)start interval:(NSTimeInterval)interval repeats:(BOOL)repeats async:(BOOL)async
++ (NSString *)execTask:(void (^)(void))task
+                 start:(NSTimeInterval)start
+              interval:(NSTimeInterval)interval
+               repeats:(BOOL)repeats
+                 async:(BOOL)async
 {
     if (!task || start < 0 || (interval <= 0 && repeats)) return nil;
     
@@ -60,7 +64,12 @@ dispatch_semaphore_t semaphore_;
     return name;
 }
 
-+ (NSString *)execTask:(id)target selector:(SEL)selector start:(NSTimeInterval)start interval:(NSTimeInterval)interval repeats:(BOOL)repeats async:(BOOL)async
++ (NSString *)execTask:(id)target
+              selector:(SEL)selector
+                 start:(NSTimeInterval)start
+              interval:(NSTimeInterval)interval
+               repeats:(BOOL)repeats
+                 async:(BOOL)async
 {
     if (!target || !selector) return nil;
     
